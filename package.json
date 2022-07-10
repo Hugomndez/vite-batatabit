@@ -1,7 +1,21 @@
 {
   "name": "vite-batatabit",
+  "description": "Project test for vite tooling and Cloudflare Pages CI/CD workflow",
+  "author": {
+    "name": "Hugo Méndez",
+    "url": "https://hugomendez.dev"
+  },
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugomndez/vite-batatabit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hugomndez/vite-batatabit/issues"
+  },
+  "homepage": "https://vite-batatabit.pages.dev",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
