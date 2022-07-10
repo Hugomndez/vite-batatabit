@@ -1,8 +1,3 @@
-import './style.css';
+import showDate from './showDate';
 
-const app = document.querySelector<HTMLDivElement>('#app')!;
-
-app.innerHTML = `
-  <h1>Hello Vite preview!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`;
+document.addEventListener('DOMContentLoaded', showDate);
